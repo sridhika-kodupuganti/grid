@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display:grid;
+    height: 100vh;
+    gap: 10px;
+    grid-template-columns: repeat(200px,1fr,200px);
+    grid-template-rows: repeat();
+    
+
+}
+.item1{
+    background-color: green;
+    grid-row:1/ 4;
+    grid-column: 1/2;
+}
+.item2{
+    background-color: green;
+    grid-column: 2/4; 
+
+}
+.item3{
+    background-color: red;
+    grid-column:4/5 ;
+}
+.item4{
+    background-color: yellow;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.item5{
+    background-color: red;
+}
+.item6{
+    background-color: green;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.item7{
+    background-color: red;
+}
+.item8{
+    background-color: yellow;
+}
+
+
+
+.container2{
+    display: grid;
+    gap: 10px;
+    height: 100vh;
+    grid-template-columns: repeat(3,1fr);
+}
+.item9{
+    background-color: rgb(84, 57, 159);
+    border:5px solid black;
+    grid-column:1/4 ;
+}
+.item10{
+    background-color: aquamarine;
+    border:5px solid black;
+    grid-row: 2/4;
+}
+.item11{
+    background-color: rgb(28, 87, 125);
+    border:5px solid black;
+    grid-column: 2/4;
+}
+
+.item12{
+    background-color: rgb(42, 109, 132);
+    border: 5px solid black;
+}
+.item13{
+    background-color: rgb(46, 124, 150);
+    border:5px solid black;
+}
+.item14{
+    background-color: rgba(42, 51, 111, 0.915);
+    border:5px solid black;
+    grid-column: 1/4;
+}
+.container3{
+    display: grid;
+    gap: 10px;
+    height: 100vh;
+    grid-template-columns: repeat(6,1fr);
+}
+.item15{
+    background-color: pink;
+}
+.item16{
+    background-color: palevioletred;
+    grid-column: 2/6;
+    grid-row: 1/3;
+}
+.item17{
+    background-color: aqua;
+}
+.item18{
+    background-color:aqua;
+    grid-row:2/3 ;
+    grid-column: 6/7;
+}
+.item19{
+    background-color:pink;
+}
+.item20{
+    background-color: pink;
+}
+.item21{
+    background-color:palevioletred;
+    grid-column: 3/5;
+    grid-row: 3/5;
+}
+.item22{
+    background-color: pink;
+}
+.item23{
+    background-color: pink;
+}
+.item24{
+    background-color: pink;
+}
+.item25{
+    background-color:pink ;
+}
+.item26{
+    background-color: pink;
+}
+.item27{
+    background-color: pink;
+}
+.item28{
+    background-color: pink;
+    grid-row: 2/3;
+}
+
+
